@@ -43,18 +43,61 @@
           </v-list-item-content>
         </v-list-item>
 
-
       </v-list>
 
-
     </v-navigation-drawer>
+
+    <div>
+        <p class="font-italic">Howdy there, I'm Jamison. An inspiring web-developer!</p>
+    </div>
+
+     <v-col class="text-left" cols="12" sm="4">
+<!-- begininning of column -->
+      <div class="my-2">
+        <v-btn text large>
+           <span class="caption text-lowercase">
+             <v-icon left>mdi-send-outline</v-icon>
+             find out more about me
+             </span>
+        </v-btn>
+      </div>
+
+      <div class="my-2">
+        <v-btn text large>
+           <span class="caption text-lowercase">
+             <v-icon left>mdi-send-outline</v-icon>
+             check out some of my projects
+             </span>
+        </v-btn>
+      </div>
+
+      <div class="my-2">
+        <v-btn text large>
+           <span class="caption text-lowercase">
+             <v-icon left>mdi-send-outline</v-icon>
+             learn about my experience
+             </span>
+        </v-btn>
+      </div>
+
+      <div class="my-2">
+        <v-btn text large>
+           <span class="caption text-lowercase">
+             <v-icon left>mdi-send-outline</v-icon>
+             get in touch with me
+             </span>
+        </v-btn>
+      </div>
+
+      <!-- end of column -->
+    </v-col>
 
     <v-app-bar
       app
       clipped-left
     >
-      <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
-      <v-toolbar-title>Jamison Nixon  </v-toolbar-title>
+      <v-app-bar-nav-icon color="#9395D3" @click.stop="drawer = !drawer" />
+      <v-toolbar-title>(Logo Here)</v-toolbar-title>
     </v-app-bar>
 
     <v-footer app>
