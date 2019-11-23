@@ -1,6 +1,6 @@
 <template>
   <v-app id="inspire">
-
+<!-- 
     <v-navigation-drawer
       v-model="drawer"
       app
@@ -44,10 +44,12 @@
         </v-list-item>
       </v-list>
 
-    </v-navigation-drawer>
+    </v-navigation-drawer> -->
 
     <div>
+      <h3>
         <p class="font-italic">Howdy there, I'm Jamison. An inspiring web-developer!</p>
+      </h3>
     </div>
 
      <v-col class="text-left" cols="12" sm="4">
@@ -88,7 +90,6 @@
              </span>
         </v-btn>
       </div>
-
       <!-- end of column -->
     </v-col>
 
@@ -96,9 +97,34 @@
       app
       clipped-left
     >
-      <v-app-bar-nav-icon color="#9395D3" @click.stop="drawer = !drawer" />
+      <!-- <v-app-bar-nav-icon color="#9395D3" @click.stop="drawer = !drawer" /> -->
       <v-toolbar-title>(Logo Here)</v-toolbar-title>
-    </v-app-bar>
+
+     <div class="my-2">
+        <v-btn text large color="teal" to="about">About</v-btn>
+      </div>
+      
+      <div class="my-2">
+        <v-btn text large color="teal" to="projects">Projects</v-btn>
+      </div>
+
+     <div class="my-2">
+        <v-btn text large color="teal" to="Experience">Experience</v-btn>
+      </div>
+    
+     <div class="my-2">
+        <v-btn text large color="teal" to="contact">Contact</v-btn>
+      </div>
+
+    <v-btn class="ma-2" tile large color="teal" icon to="">
+      <v-icon>mdi-github-circle</v-icon>
+    </v-btn>
+
+    <v-btn class="ma-2" tile large color="teal" icon to="">
+      <v-icon>mdi-linkedin-box</v-icon>
+    </v-btn>
+      
+      </v-app-bar>
 
     <v-footer app>
       <span>&copy; 2020</span>
