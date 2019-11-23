@@ -42,7 +42,6 @@
             <v-list-item-title>Get In Touch</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
-
       </v-list>
 
     </v-navigation-drawer>
@@ -54,16 +53,17 @@
      <v-col class="text-left" cols="12" sm="4">
 <!-- begininning of column -->
       <div class="my-2">
-        <v-btn text large>
-           <span class="caption text-lowercase">
+        <v-btn  text large to="about">
+           <span class="caption text-lowercase" >
              <v-icon left>mdi-send-outline</v-icon>
              find out more about me
              </span>
         </v-btn>
+      
       </div>
 
       <div class="my-2">
-        <v-btn text large>
+        <v-btn text large to="projects">
            <span class="caption text-lowercase">
              <v-icon left>mdi-send-outline</v-icon>
              check out some of my projects
@@ -72,7 +72,7 @@
       </div>
 
       <div class="my-2">
-        <v-btn text large>
+        <v-btn text large to="experience">
            <span class="caption text-lowercase">
              <v-icon left>mdi-send-outline</v-icon>
              learn about my experience
@@ -81,7 +81,7 @@
       </div>
 
       <div class="my-2">
-        <v-btn text large>
+        <v-btn text large to="contact">
            <span class="caption text-lowercase">
              <v-icon left>mdi-send-outline</v-icon>
              get in touch with me
