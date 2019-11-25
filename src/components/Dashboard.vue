@@ -97,9 +97,9 @@
       app
       clipped-left
     >
-      <!-- <v-app-bar-nav-icon color="#9395D3" @click.stop="drawer = !drawer" /> -->
-      <v-toolbar-title>(Logo Here)</v-toolbar-title>
-
+<v-row align="left" justify="left">
+  <!-- pushes buttons below to the far right -->
+  </v-row>
      <div class="my-2">
         <v-btn text large color="teal" to="about">About</v-btn>
       </div>
@@ -116,11 +116,11 @@
         <v-btn text large color="teal" to="contact">Contact</v-btn>
       </div>
 
-    <v-btn class="ma-2" tile large color="teal" icon to="">
+    <v-btn class="ma-2" tile large color="teal" icon href="https://www.github.com/jmison">
       <v-icon>mdi-github-circle</v-icon>
     </v-btn>
 
-    <v-btn class="ma-2" tile large color="teal" icon to="">
+    <v-btn class="ma-2" tile large color="teal" icon href="https://www.linkedin.com/in/jamison-nixon/">
       <v-icon>mdi-linkedin-box</v-icon>
     </v-btn>
       
