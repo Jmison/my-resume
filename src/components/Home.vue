@@ -6,7 +6,8 @@
 
     <div>
       <h3>
-        <p class="font-italic">Howdy there, I'm Jamison. An inspiring web-developer!</p>
+        <p class="font-italic">Howdy there, I'm Jamison. An inspiring web-developer!
+        </p>
       </h3>
     </div>
 

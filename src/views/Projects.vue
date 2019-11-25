@@ -1,33 +1,30 @@
 <template>
   <v-app id="inspire">
-    <div>
-      <h3>
-        Welcome to my Projects Page. 
-      </h3>
-    </div>
-
-
-
+  <p>
+    <!-- Gap between toolbar and expansion panels -->
+  </p>
     <v-app-bar
       app
       clipped-left
     >
+    
+    <p>
+      <v-icon left color="teal">mdi-xml</v-icon>
+    
+    <!-- TODO: MAKE 'PROJECTS PAGE' TEAL -->
+    <div class="title"> 
+    <p class="cyan--text">
+        Projects Page
+        </p>
+    </div>
+    
+
+
+
 <v-row align="left" justify="left">
   <!-- pushes buttons below to the far right -->
   </v-row>
 
-
-    <!-- * * * * Logo Space * * * * -->
-    <!-- <v-row align="center" justify="center">
-    <v-img
-      src="https://i.imgur.com/0Z7dedY.png"
-      lazy-src="https://i.imgur.com/0Z7dedY.png"
-      aspect-ratio="1"
-      class="grey lighten-2"
-      max-width="500"
-      max-height="300"
-    ></v-img>
-  </v-row> -->
 
 
 
@@ -63,11 +60,61 @@
 
 
 
+<!-- Expansion list-panels -->
+
+      <!-- My-Resume Project -->
+  <v-expansion-panels>
+    <v-expansion-panel>
+      <v-expansion-panel-header>My-Resume</v-expansion-panel-header>
+      <v-expansion-panel-content>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </v-expansion-panel-content>
+    </v-expansion-panel>
+  </v-expansion-panels>
+  <div></div>
+
+      <!-- Geo-Ninjas Projects -->
+  <v-expansion-panels>
+    <v-expansion-panel>
+      <v-expansion-panel-header>Geo-Ninjas</v-expansion-panel-header>
+      <v-expansion-panel-content>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </v-expansion-panel-content>
+    </v-expansion-panel>
+  </v-expansion-panels>
+
+      <!-- Ninja-Chat Projects -->
+  <v-expansion-panels>
+    <v-expansion-panel>
+      <v-expansion-panel-header>Ninja-Chat</v-expansion-panel-header>
+      <v-expansion-panel-content>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </v-expansion-panel-content>
+    </v-expansion-panel>
+  </v-expansion-panels>
+
+      <!-- Ninja-Smoothies Projects -->
+  <v-expansion-panels>
+    <v-expansion-panel>
+      <v-expansion-panel-header>Ninja-Chat</v-expansion-panel-header>
+      <v-expansion-panel-content>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </v-expansion-panel-content>
+    </v-expansion-panel>
+  </v-expansion-panels>
+
+  
+
+
+
+
     <v-footer app>
       <span>&copy; 2020</span>
     </v-footer>
   </v-app>
 </template>
+
+
 
 
 
