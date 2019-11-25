@@ -13,7 +13,6 @@
     
     <!-- TODO: MAKE 'PROJECTS PAGE' TEAL -->
     <div class="title"> 
-
       <h3>
           <v-icon left color="teal">mdi-xml</v-icon>
             Projects Page
