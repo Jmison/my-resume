@@ -23,7 +23,6 @@
              find out more about me
              </span>
         </v-btn>
-      
       </div>
 
       <div class="my-2">
@@ -61,10 +60,20 @@
     <v-app-bar
       app
       clipped-left
-    >
+    > 
+    
+    <div class="title"> 
+      <h3>
+          <v-icon left color="teal">mdi-home-import-outline</v-icon>
+            Home Page
+      </h3>
+    </div>
+
 <v-row align="left" justify="left">
   <!-- pushes buttons below to the far right -->
   </v-row>
+
+  
 
 
     <!-- * * * * Logo Space * * * * -->
