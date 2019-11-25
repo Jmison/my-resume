@@ -40,6 +40,13 @@ const routes = [
     component: function () {
       return import(/* webpackChunkName: "about" */ '../views/Contact.vue')
     },
+  },
+  {
+    path: '/home',
+    name: 'home',
+    component: function () {
+      return import(/* webpackChunkName: "about" */ '../components/Home.vue')
+    },
   }
 ]
 
