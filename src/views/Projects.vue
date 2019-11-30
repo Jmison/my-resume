@@ -30,21 +30,25 @@
 
 
     <!-- Top toolbar buttons -->
-     <div class="my-2">
+    
+      <div class="my-2">
         <v-btn text large color="teal" to="home">
-          <v-icon>mdi-home-import-outline</v-icon>
            Home  
         </v-btn>
       </div>
-
-      <div class="my-2">
+      
+     <div class="my-2">
         <v-btn text large color="teal" to="about">About</v-btn>
       </div>
-
+      
       <div class="my-2">
-        <v-btn text large color="teal" to="experience">Experience</v-btn>
+        <v-btn text large color="teal" to="projects">Projects</v-btn>
       </div>
 
+     <div class="my-2">
+        <v-btn text large color="teal" to="Experience">Experience</v-btn>
+      </div>
+    
      <div class="my-2">
         <v-btn text large color="teal" to="contact">Contact</v-btn>
       </div>

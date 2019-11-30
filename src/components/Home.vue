@@ -92,6 +92,12 @@
 
     <!-- Top toolbar buttons -->
      <div class="my-2">
+        <v-btn text large color="teal" to="home">
+           Home  
+        </v-btn>
+      </div>
+
+     <div class="my-2">
         <v-btn text large color="teal" to="about">About</v-btn>
       </div>
       
