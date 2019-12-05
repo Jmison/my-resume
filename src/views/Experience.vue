@@ -75,10 +75,45 @@
       </v-app-bar>
 
 
+  <v-card
+    class="mx-auto"
+  >
+    <v-card-text v-for="(experience, index) in experienceItems" :key="index">
 
+      <div>Years Attended: {{experience.years}} </div>
+ 
+      <p class="display-1 text--primary">
+        {{experience.school}}
+      </p>
+
+      <p>Extracurricular Activities: {{experience.info}} </p>
+      <div class="text--primary">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est iusto praesentium, magni eos totam excepturi voluptate, officiis commodi minima doloremque saepe fuga deserunt suscipit, impedit iste voluptas reprehenderit placeat cum?
+        <br>
+      </div>
+    </v-card-text>
+  </v-card>
   
 
+  <!-- testing -->
+    <!-- <h2>
+      <ul>
+            <div v-for="(experience, index) in experienceItems" :key="index">
+              <h2>
 
+                <div>Attended: {{experience.school}} </div>
+
+                <div>Earned A Degree In: {{experience.degree}} </div>
+
+                <div>Studied During The Years of {{experience.years}} </div>
+
+                <div>Also Participated In: {{experience.info}} </div>
+
+              </h2>
+          </div>       
+      </ul>
+    </h2> -->
+  <!-- end of testing -->
 
 
 
@@ -97,12 +132,37 @@
       source: String,
     },
     
-    data: () => ({
-      drawer: null,
-        projects: [
-        { title: 'Design a new website', degree: 'The Net Ninja', years: '1st Jan 2019', description: 'ongoing'},
-      ]
-    }),
+    data(){
+      return{
+        experienceItems: [
+          { 
+              school: 'School X',
+              degree: 'Degree X',
+              years: '2016 - 2019',
+              info: 'Chess Club' 
+          },
+           { 
+              school: 'School Y',
+              degree: 'Degree Y',
+              years: '2020 - 2024',
+              info: 'Baseball' 
+          },
+           { 
+              school: 'School Z',
+              degree: 'Degree Z',
+              years: '2024 - 2028',
+              info: 'Soccer' 
+          },
+           { 
+              school: 'School A',
+              degree: 'Degree A',
+              years: '2028 - 2032',
+              info: 'Football' 
+          }
+        ]
+       }
+      },
+
     created () {
       this.$vuetify.theme.dark = true
     },
